@@ -1,5 +1,5 @@
 import '../styles/globals.css';
-import Header from '../components/header'
+import Navigation from '../components/navigation'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
   return(
     <>
  
-      <Header/>
+      <Navigation/>
       <Component {...pageProps} />
     
   
